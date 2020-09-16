@@ -1,0 +1,68 @@
+第一步：
+ssh-keygen -t rsa -c qq.tan@ksd-it.com
+注：后面是自己用的邮箱，
+    要输入密码时，可以回车，这样试空密码，
+
+下载指令：炬力 oboe项目
+git clone ssh://git@git.actions-semi.com:2412/publish/OBOE.git
+
+先查看分支
+git branch -r #查看远程分支
+git branch -a #查看所有分支
+
+分支展示
+1.origin/HEAD -> origin/master
+2.origin/dev
+3.origin/maste
+
+切换分支并拉去代码
+1.git checkout -b origin/dev
+
+总结
+
+git checkout     # 命令在分支之间切换
+
+git checkout -b  # 创建一个新的分支，并立即切换到新分支
+
+git branch -D    # 删除分支。但在删除现有分支之前，请切换到其他分支
+
+git branch -m    # 分支名称重新命名。选项后跟旧的分支名称和新的分支名称来更改/重新命名分支名称
+
+
+如果原厂代码有更新，你就
+
+git checkout master //切换到指定分支
+
+git pull origin master
+
+
+git checkout KSD //切换到指定分支
+
+git pull origin KSD
+
+pull：是下拉代码，相等于将远程的代码下载到你本地，与你本地的代码合并
+
+push：是推代码，将你的代码上传到远程的动作
+完整的流程是：
+
+
+
+第一种方法：（简单易懂）
+
+
+1、git add .（后面有一个点，意思是将你本地所有修改了的文件添加到暂存区）
+
+2、git commit -m""(引号里面是你的介绍，就是你的这次的提交是什么内容，便于你以后查看，这个是将索引的当前内容与描述更改的用户和日志消息一起存储在新的提交中)
+
+3、git pull origin master这是下拉代码，将远程最新的代码先跟你本地的代码合并一下，如果确定远程没有更新，可以不用这个，最好是每次都执行以下，完成之后打开代码查看有没有冲突，并解决，如果有冲突解决完成以后再次执行1跟2的操作
+
+4、git push origin KSD将代码推至远程就可以了
+
+
+ATS2831 git clone;
+git clone ssh://git@36.33.0.166:2412/REL/ALL/ATS2831/zs283ah_b13
+
+
+git log   //查看log，退出字母Q
+
+
