@@ -1,5 +1,5 @@
 第一步：
-ssh-keygen -t rsa -c qq.tan@ksd-it.com
+ssh-keygen -t rsa -C qq.tan@ksd-it.com
 注：后面是自己用的邮箱，
     要输入密码时，可以回车，这样试空密码，
 
@@ -66,3 +66,5 @@ git clone ssh://git@36.33.0.166:2412/REL/ALL/ATS2831/zs283ah_b13
 git log   //查看log，退出字母Q
 
 
+// 自己新建的仓 测试使用
+https://github.com/qingqiao69/ZS283X.git
