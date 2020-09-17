@@ -68,3 +68,14 @@ git log   //查看log，退出字母Q
 
 // 自己新建的仓 测试使用
 https://github.com/qingqiao69/ZS283X.git
+
+
+
+回退上一个版本 // HEAD~100
+$ git reset --hard HEAD^
+
+
+
+
+
+
