@@ -77,6 +77,8 @@ $ git reset --hard HEAD^
 Git has a mutable index called stage.
 
 
+git is modify
+
 
 
 
