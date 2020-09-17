@@ -74,6 +74,7 @@ https://github.com/qingqiao69/ZS283X.git
 回退上一个版本 // HEAD~100
 $ git reset --hard HEAD^
 
+Git has a mutable index called stage.
 
 
 
